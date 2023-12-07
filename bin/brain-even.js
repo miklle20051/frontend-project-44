@@ -1,6 +1,8 @@
 import readlineSync from 'readline-sync';
-export function even() {
+
+export function even(name) {
   
+    console.log(`Hello, ${name}!`);
     console.log('Answer "yes" if the number is even, otherwise answer "no".')
     
     let win = 0;
@@ -24,8 +26,8 @@ export function even() {
       win = win + 1;
     } else {
     console.log(`'${answer}' is wrong answer ;(. Correct answer was ${parity}.`)
-    console.log("Let's try again, Bill!");
+    console.log(`Let's try again, ${name}!`);
     }
     }
-     console.log('Congratulations, Bill!');
+     console.log(`Congratulations, ${name}!`);
     }
