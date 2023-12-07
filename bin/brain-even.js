@@ -6,9 +6,10 @@ export function even(name) {
     console.log('Answer "yes" if the number is even, otherwise answer "no".')
     
     let win = 0;
+    let lose = 0;
     
     
-    while (win < 3) {
+    while (win < 3 && lose === 0) {
     const randomNumber = Math.floor(Math.random() * 15) + 1;
     let parity = 0;
     if (randomNumber % 2 === 0) {
@@ -27,7 +28,10 @@ export function even(name) {
     } else {
     console.log(`'${answer}' is wrong answer ;(. Correct answer was ${parity}.`)
     console.log(`Let's try again, ${name}!`);
+    lose = lose + 1
     }
     }
+    if (win === 3) {
      console.log(`Congratulations, ${name}!`);
+    }
     }
