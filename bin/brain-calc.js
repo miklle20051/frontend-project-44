@@ -46,7 +46,7 @@ while (win < 3 && lose === 0) {
     // Вывод вопроса на экран.
     console.log(`Question: ${example}`)
     
-    // Чтение ответа вопроса на экран.
+    // Чтение ответа.
     let answerUser = readlineSync.question('Your answer: ');
    
     if (correctAnswer ===  Number(answerUser)) {
