@@ -1,6 +1,6 @@
 # Проект "Игры разума" #
 
-### Hexlet tests and linter status: ###
+### Результаты тестов: ###
 [![Actions Status](https://github.com/miklle20051/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/miklle20051/frontend-project-44/actions)
 
 ## Описание проекта: ##
@@ -47,6 +47,28 @@ brain-gcd
 ```
 
 [![asciicast](https://asciinema.org/a/9QOXDsf6549jf39QozJlG8wHm.svg)](https://asciinema.org/a/9QOXDsf6549jf39QozJlG8wHm)
+
+
+Игра: "Арифметическая прогрессия". Пользователю показывается ряд чисел. Пользователь должен ввести пропущенное число.
+
+### Запуск игры: ###
+
+```
+brain-progression
+```
+
+[![asciicast](https://asciinema.org/a/1vqR4X0v9pAHs7isSot4yVX0d.svg)](https://asciinema.org/a/1vqR4X0v9pAHs7isSot4yVX0d)
+
+
+
+Игра: "Простое число". Пользователю показывается случайное число. И ему нужно ответить yes, если число простое, или no - если это не так.
+### Запуск игры: ###
+
+```
+brain-prime
+```
+
+[![asciicast](https://asciinema.org/a/F9HVd0KesW3qTsFo1dYIhFk3X.svg)](https://asciinema.org/a/F9HVd0KesW3qTsFo1dYIhFk3X)
 
 
 
