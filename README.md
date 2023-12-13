@@ -38,3 +38,15 @@ brain-calc
 [![asciicast](https://asciinema.org/a/M0bxWcCS3FTzqk7YoevxX6eh9.svg)](https://asciinema.org/a/M0bxWcCS3FTzqk7YoevxX6eh9)
 
 
+Игра: "Нод". Пользователю показывается два случайных числа. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+
+### Запуск игры: ###
+
+```
+brain-gcd
+```
+
+[![asciicast](https://asciinema.org/a/9QOXDsf6549jf39QozJlG8wHm.svg)](https://asciinema.org/a/9QOXDsf6549jf39QozJlG8wHm)
+
+
+
