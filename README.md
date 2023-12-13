@@ -28,10 +28,6 @@ brain-even
 [![asciicast](https://asciinema.org/a/lcSDIwqQNuqmr6UZNMRzjHbSN.svg)](https://asciinema.org/a/lcSDIwqQNuqmr6UZNMRzjHbSN)
 
 
-
-=
-
-
 Игра: "Калькулятор". Пользователю показывается случайное математическое выражение, которое нужно вычислить и записать правильный ответ.
 
 ### Запуск игры: ###
