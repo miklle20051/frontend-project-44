@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import { userName } from '../cli.js';
-console.log('Welcome to the Brain Games!');
 export function progressionGame() {
 const name = userName();
 console.log('What number is missing in the progression?');

@@ -18,7 +18,7 @@ function isPrime(num) {
 
 export function primeGame() {
 const name = userName();
-console.log('Find the greatest common divisor of given numbers.');
+console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
 
 let win = 0;
 let lose = 0;
