@@ -30,7 +30,7 @@ while (win < 3 && lose === 0) {
     correctAnswer = startNum + hiddenIndex * diff;
 
     // Вывод вопроса на экран.
-    console.log(`Question: ${progression.join(", ")}`)
+    console.log(`Question: ${progression.join(" ")}`)
 
     
     // Чтение ответа вопроса на экран.
